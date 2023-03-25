@@ -1,2 +1,6 @@
 rootProject.name = "aws-cdk-kts"
-include("lambda", "cdk")
+
+include(
+  "infrastructure",
+  "lambda:hello-world"
+)

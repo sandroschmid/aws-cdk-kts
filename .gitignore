@@ -3,4 +3,6 @@
 
 .gradle/
 build/
+
+.aws-sam/
 cdk.out/

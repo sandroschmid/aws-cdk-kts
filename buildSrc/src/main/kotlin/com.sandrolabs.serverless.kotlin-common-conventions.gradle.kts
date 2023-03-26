@@ -1,5 +1,6 @@
 plugins {
   kotlin("jvm")
+  `java-test-fixtures`
 }
 
 repositories {
@@ -9,6 +10,7 @@ repositories {
 kotlin {
   jvmToolchain {
     languageVersion.set(JavaLanguageVersion.of(11))
+    vendor.set(JvmVendorSpec.AMAZON)
   }
 }
 

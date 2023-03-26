@@ -3,12 +3,6 @@
   "versionReporting": false,
   "toolkitBucketName": "com.sandrolabs.serverless.aws-cdk-kts.assets",
   "toolkitStackName": "aws-cdk-kts-bootstrap",
-  "watch": {
-    "include": [
-      "cdk/src/main/*",
-      "../lambda/hello-world/build/libs/hello-world-all.jar"
-    ]
-  },
   "context": {
   }
 }

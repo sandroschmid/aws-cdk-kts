@@ -8,7 +8,7 @@ object DemoApp {
   fun main(args: Array<String>) {
     val app = App()
     val stackProps = StackProps.builder().build()
-    DemoStack(app, "demo-stack", stackProps)
+    DemoStack(app, "aws-cdk-kts", stackProps)
     app.synth()
   }
 }

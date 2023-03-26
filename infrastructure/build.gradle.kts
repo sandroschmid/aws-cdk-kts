@@ -7,7 +7,6 @@ application {
 }
 
 dependencies {
-  val cdkVersion = "2.0.0"
-  implementation("software.amazon.awscdk:aws-cdk-lib:$cdkVersion")
-  implementation("software.constructs:constructs:10.0.0")
+  implementation("software.amazon.awscdk:aws-cdk-lib:2.0.0")
+  implementation("software.constructs:constructs:10.1.280")
 }

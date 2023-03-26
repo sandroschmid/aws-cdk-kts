@@ -1,4 +1,4 @@
-package com.sandrolabs.serverless.lambda
+package com.sandrolabs.serverless.lambda.util
 
 import com.amazonaws.services.lambda.runtime.LambdaLogger
 import kotlin.reflect.KClass
